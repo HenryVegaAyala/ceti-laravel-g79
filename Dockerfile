@@ -1,6 +1,6 @@
 FROM php:8.5-fpm
 
-RUN apt-get update && apt-install -y \
+RUN apt-get update && apt-get install -y \
     git \
     curl \
     libpng-dev \
